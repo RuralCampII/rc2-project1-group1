@@ -8,6 +8,11 @@ body {
   background-color: #e2c044;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
 /* menu de navegación*/
 nav {
   background-color: #2e5266;
@@ -15,7 +20,7 @@ nav {
   justify-content: space-evenly;
   height: 60px;
   align-items: center;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 nav li {
@@ -24,12 +29,11 @@ nav li {
 }
 
 nav li a {
-    text-decoration: none;
-    color: #fff;
-}   
+  color: #fff;
+}
 
 nav li a:hover {
-color: #9FB1BC
+  color: #9fb1bc;
 }
 
 /* contenedor */
@@ -96,22 +100,58 @@ img.personal {
   border-radius: 250px;
   margin: 30px 50px 0 50px;
 }
-/*página 2*/
+
+footer {
+  background-color: #d3d0cb;
+  margin-top: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #ff4700;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+/*qué hacemos*/
 
 section.mision {
-    margin-top: 25px; 
+  margin-top: 25px;
 }
 
 p.descripcion {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 article.hacemos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
 }
 
 .diseno {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/*Sobre mí*/
+
+h1.nombre {
+  font-size: 40px;
+}
+
+section .sobremi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.devega {
+  margin: 0;
+}
+
+section .sobremi .anamari {
+  margin: 0;
 }
